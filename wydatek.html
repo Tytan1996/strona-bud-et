@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta charset="utf-8" />
+<title>Budżet</title>
+<meta name="discripton" content="Strona na której możesz kontolować swój budżet" />
+	<meta name="keywords" content="Budżet, blians" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="author" content="Maciej Pestka" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+<div id="strona">
+<div id="menu">
+<div clas="opcja"></div>
+</div>
+<div id="menu_l"></div>
+<div id="tresc">
+	<form auction="dodajWydatek.php">
+		Kwota: 
+		<input type="number"> <br>
+		Data:
+		<input type="date" value="23.04.2022"><br>
+		Sposób płatności <br>
+		<input type="radio" id="gotowka" name="sposobPlatnosci" value="gotowka">
+		<label for="gotowka">Gotówka</label>
+		<input type="radio" id="kartaDebetowa" name="sposobPlatnosci" value="kartaDebetowa">
+		<label for="kartaDebetowa">Karta debetowa</label>
+		<input type="radio" id="kartaKredytowa" name="sposobPlatnosci" value="kartaKredytowa">
+		<label for="kartaKredytowa">Karta kredytowa</label>
+		<br>Kategorie: <br>
+		<input type="radio" id="jedzienie" name="Kategorie" value="jedzienie">
+		<label for="jedzienie">Jedzienie</label>
+		<input type="radio" id="mieszkanie" name="Kategorie" value="mieszkanie">
+		<label for="mieszkanie">Mieszkanie</label>
+		<input type="radio" id="transport" name="Kategorie" value="transport">
+		<label for="transport">Transport</label>
+		<input type="radio" id="telekomunikacja" name="Kategorie" value="telekomunikacja">
+		<label for="telekomunikacja">Telekomunikacja</label><br>
+		<input type="radio" id="opiekaZdrowotna" name="Kategorie" value="opiekaZdrowotna">
+		<label for="opiekaZdrowotna">Opieka zdrowotna</label>
+		<input type="radio" id="ubranie" name="Kategorie" value="ubranie">
+		<label for="ubranie">Ubranie</label>
+		<input type="radio" id="higienia" name="Kategorie" value="higienia">
+		<label for="higienia">Higienia</label>
+		<input type="radio" id="dzieci" name="Kategorie" value="dzieci">
+		<label for="dzieci">Dzieci</label><br>
+		<input type="radio" id="rozrywka" name="Kategorie" value="rozrywka">
+		<label for="rozrywka">Rozrywka</label>
+		<input type="radio" id="wycieczka" name="Kategorie" value="wycieczka">
+		<label for="wycieczka">Wycieczka</label>
+		<input type="radio" id="szkolenie" name="Kategorie" value="szkolenie">
+		<label for="szkolenie">Szkolenie</label>
+		<input type="radio" id="ksiazki" name="Kategorie" value="ksiazki">
+		<label for="ksiazki">Książki</label><br>
+		<input type="radio" id="oszczednosci" name="Kategorie" value="oszczednosci">
+		<label for="oszczednosci">Oszczędności</label>
+		<input type="radio" id="emerytura" name="Kategorie" value="emerytura">
+		<label for="emerytura">Na złotą jesień, czyli emeryturę</label><br>
+		<input type="radio" id="dlugi" name="Kategorie" value="dlugi">
+		<label for="dlugi">Spłata długów</label>
+		<input type="radio" id="darowizna" name="Kategorie" value="darowizna">
+		<label for="darowizna">Darowizna</label>
+		<input type="radio" id="inne" name="Kategorie" value="inne">
+		<label for="inne">Inne wydatki</label>
+		<br>Komentarz (opcjonalnie):<br>
+		<input type="text">
+		<br>
+		<input type="submit" value="Dodaj">
+		<input type="submit" value="Anuluj">
+	</form>
+
+</div>
+<div id="stopka">
+&copy; Wszelkie prawa zastrzeżonie. &copy;
+</div>
+
+
+
+</div>
+
+</body>
+
+
+</html>
