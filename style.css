@@ -1,0 +1,236 @@
+body{
+	background-color: black;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 20px;
+	margin: 0 !important; 
+}
+
+a{
+	
+	color: red;
+	text-decoration: none;
+		
+}
+a:visited{
+	
+	color: green;
+	
+}
+
+a:hover{
+	
+	color: white;
+	
+	
+}
+#strona {
+	background-color: #222222;
+	width: 1850px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#baner {
+	background-color: #111111;
+	
+	
+	
+}
+#menu{
+	background-color: #121212;
+	padding:2px;
+}
+.link_up{
+	
+	height: 35px;
+	color: white;
+	font-size:18px;
+	float: left;
+	width: 13%;
+	text-align: center;
+	font-size: 23px;
+	border-right: 2px dotted #cccccc;
+}
+.link_up:hover{
+	color:yellow;
+	background-color: #010101;
+	font-size: 29px;
+	
+}
+#zegar{
+	float: right;
+	background-color:#3b3b3b;
+	color: white;
+	
+}
+.reset{
+	clear: both;
+}
+
+#menu_l{
+	float: left;
+	width: 175px;
+	height: 500px;
+	text-align: left;
+	background-color: #111111;
+	margin-top: 5px;
+	padding: 5px;
+    min-width: auto;
+    min-height: 800px;
+
+	
+}
+.link_l{
+	height: 40px;
+	color: #ffffff;
+	border-bottom: 2px dotted #4f4f4f;
+	text-decoration: none;
+	padding: 2px;
+}
+.link_l:hover{
+	background-color: #000000;	
+	border-bottom: 2px dotted #3c3c3c;
+	color: yellow;
+	text-decoration:none;
+	font-size: 22px;
+}
+#tresc{
+	float:left;
+	text-align:justify;
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 2px;
+	width: 1633px;
+    min-width: auto;
+    min-height: auto;
+	
+}
+#stopka{
+	clear: both;
+	text-align: center;
+	background-color: #1f221f;
+	margin-top:10px;
+	padding: 5px;
+	
+}
+#formularz{
+	padding: 5px;
+	border: 1px solid gray;
+	padding: 2px;
+	min-width: 225px;
+	max-width: 225px;
+	min-height: 150px;
+	max-height: 150px;
+	margin-left: 3px;
+	color: #DDDDDD;
+	
+}
+input[type=text],
+input[type=password],
+input[type="email"] {
+	background-color: #444;
+	color: #fafafa;
+	width: 200px;
+	height: 20px;
+	border: 1px solid red;
+	margin-top:7px;
+	margin-bottom:2px;
+	margin-left: 5px;
+	
+}
+input[type=text]:focus,
+input[type=password]:focus,
+input[type="email"]:focus {
+	-webkit-box-shadow: 0px 3px 122px 3px rgba(193,201,87,1);
+	-moz-box-shadow: 0px 3px 122px 3px rgba(193,201,87,1);
+	box-shadow: 0px 3px 122px 3px rgba(193,201,87,1);
+	border: 1px solid red;
+	background-color: gray;
+}
+input[type=submit]{
+	background: #1f7f1f;
+	color: #fafafadf;
+	text-align: center;
+	width: 200px;
+	height: 25px;
+	border: 1px solid #0b6b0b;	
+
+}
+table{
+	background-color: #0004e715;
+	color: #ffffff;
+	border: 2px solid grey;
+    min-height: 15%;
+    min-width: 15%;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+th{
+	background-color: black;
+	border: 4px solid grey;
+    color: #ffe6e6;
+}
+td{
+	background-color: #201e1e;
+	border: 2px solid #0000fa;
+    color: #ffffff;
+    width: 250px;
+}
+#tableWydatek{
+	float: left;
+
+}#tablePrzychod{
+	float: left;
+
+}
+#piechart1{
+	float: left;
+
+}
+#piechart{
+	float: left;
+
+}
+.endfloat{
+	clear: both;
+
+}
+.PLN{
+    text-align: center;
+    width: 125px;
+}
+.dropbtn {
+    background-color: #20493a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bbb7b7;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(255, 255, 255);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #30725a;}
