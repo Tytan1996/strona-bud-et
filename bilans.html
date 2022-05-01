@@ -68,6 +68,16 @@ chart.draw(data, options);
 </div>
 <div id="menu_l"></div>
 <div id="tresc">
+	<div class="dropdown">
+		<button class="dropbtn">Dropdown</button>
+		<div class="dropdown-content">
+		  <a href="#">bieżący miesiąc</a>
+		  <a href="#">poprzedni miesiąc</a>
+		  <a href="#">bieżący rok</a>
+		  <a href="#">niestandardowy</a>
+		</div>
+	  </div>
+	  <br>
 	<table id="tableWydatek">
 	<tr><th>
 	Wydadak:
@@ -76,7 +86,7 @@ chart.draw(data, options);
 	<td>
 		Jedzienie:
 	</td>
-	<td>
+	<td class="PLN">
 		100 PLN
 	</td>
 	</tr>
@@ -84,7 +94,7 @@ chart.draw(data, options);
 	<td>
 		Mieszkanie:
 	</td>
-	<td>
+	<td class="PLN">
 		150 PLN
 	</td>
 	</tr>
@@ -92,7 +102,7 @@ chart.draw(data, options);
 	<td>
 		Transport:
 	</td>
-	<td>
+	<td class="PLN">
 		200 PLM
 	</td>
 	</tr>
@@ -100,7 +110,7 @@ chart.draw(data, options);
 	<td>
 		Telekomunikacja:
 	</td>
-	<td>
+	<td class="PLN">
 		250 PLN
 	</td>
 	</tr>
@@ -108,7 +118,7 @@ chart.draw(data, options);
 	<td>
 		Opieka zdrowotna:
 	</td>
-	<td>
+	<td class="PLN">
 		300 PLN
 	</td>
 	</tr>
@@ -116,7 +126,7 @@ chart.draw(data, options);
 	<td>
 		Ubranie:
 	</td>
-	<td>
+	<td class="PLN">
 		350 PLN
 	</td>
 	</tr>
@@ -124,7 +134,7 @@ chart.draw(data, options);
 	<td>
 		Higienia:
 	</td>
-	<td>
+	<td class="PLN">
 		400 PLN
 	</td>
 	</tr>
@@ -132,7 +142,7 @@ chart.draw(data, options);
 	<td>
 		Dzieci:
 	</td>
-	<td>
+	<td class="PLN">
 		500 PLN
 	</td>
 	</tr>
@@ -140,7 +150,7 @@ chart.draw(data, options);
 	<td>
 		Rozrywka:
 	</td>
-	<td>
+	<td class="PLN">
 		100 PLN
 	</td>
 	</tr>
@@ -148,9 +158,17 @@ chart.draw(data, options);
 	<td>
 		Wycieczka:
 	</td>
-	<td>
+	<td class="PLN">
 		200 PLN
 	</td>
+	</tr>
+	<tr>
+		<td>
+			Suma:
+		</td>
+		<td class="PLN">
+			205 PLM
+		</td>
 	</tr>
 	</table>
 	<table id="tablePrzychod">
@@ -161,7 +179,7 @@ chart.draw(data, options);
 		<td>
 			Wynagrodzenie:
 		</td>
-		<td>
+		<td class="PLN">
 			1700 PLN
 		</td>
 		</tr>
@@ -169,7 +187,7 @@ chart.draw(data, options);
 		<td>
 			Odsetki bankowe:
 		</td>
-		<td>
+		<td class="PLN">
 			150 PLN
 		</td>
 		</tr>
@@ -177,7 +195,7 @@ chart.draw(data, options);
 		<td>
 			Spredaż na allegro:
 		</td>
-		<td>
+		<td class="PLN">
 			200 PLM
 		</td>
 		</tr>
@@ -185,15 +203,23 @@ chart.draw(data, options);
 			<td>
 				Inne:
 			</td>
-			<td>
+			<td class="PLN">
 				205 PLM
 			</td>
-			</tr>
-		</table>
-		<div class="endfloat"></div>
-		<div class="wykres" id="piechart1"></div>
-		<div class="wykres" id="piechart" ></div>
-		<div class="endfloat"></div>
+		</tr>
+		<tr>
+			<td>
+				Suma:
+			</td>
+			<td class="PLN">
+				205 PLM
+			</td>
+		</tr>
+		</table><div class="endfloat"></div>
+		<br>
+		<div class="wykres" id="piechart1" style="width: 45%; height: 475px;"></div>
+		<div class="wykres" id="piechart" style="width: 45%; height: 475px; "></div>
+		
 	</div>
 <div id="stopka">
 &copy; Wszelkie prawa zastrzeżonie. &copy;
